@@ -1,0 +1,93 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "refresh-assets": {
+      "name": "refresh-assets",
+      "command": "yarn refresh-assets",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "dev-vscode": {
+      "name": "dev-vscode",
+      "command": "yarn dev-vscode",
+      "runAtStart": false
+    },
+    "build-types": {
+      "name": "build-types",
+      "command": "yarn build-types",
+      "runAtStart": false
+    },
+    "build-api": {
+      "name": "build-api",
+      "command": "yarn build-api",
+      "runAtStart": false
+    },
+    "build-package": {
+      "name": "build-package",
+      "command": "yarn build-package",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "check-scripts": {
+      "name": "check-scripts",
+      "command": "yarn check-scripts",
+      "runAtStart": false
+    },
+    "api-check": {
+      "name": "api-check",
+      "command": "yarn api-check",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "yarn e2e",
+      "runAtStart": false
+    }
+  }
+}
